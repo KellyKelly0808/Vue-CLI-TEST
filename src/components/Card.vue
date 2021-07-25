@@ -11,11 +11,11 @@
 </template>
 
 <script>
- export default {
-     data(){
-         return {
-           title:'這是一段標題',
-         };
-     },
- };
+export default {
+  data () {
+    return {
+      title: '這是一段標題'
+    }
+  }
+}
 </script>
