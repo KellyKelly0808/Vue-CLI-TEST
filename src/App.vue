@@ -25,7 +25,9 @@
     </div>
   </div>
 </nav>
+<div class="container">
   <router-view/>
+  </div>
    {{ name }}
   <button type="button" class="btn btn-primary">Primary</button>
 </template>
