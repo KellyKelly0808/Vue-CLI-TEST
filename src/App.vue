@@ -25,14 +25,6 @@
     </div>
   </div>
 </nav>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    | <router-link to="/new">New</router-link>|
-    <router-link :to="{
-      name:'NewPage'
-    }">新增頁面</router-link>
-  </div>
   <router-view/>
    {{ name }}
   <button type="button" class="btn btn-primary">Primary</button>
