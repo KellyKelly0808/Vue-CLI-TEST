@@ -15,7 +15,17 @@ const routes = [
   {
     path: '/newpage',
     name: 'NewPage',
-    component: () => import('../views/NewPage.vue')
+    component: () => import('../views/NewPage.vue'),
+    children: [
+      {
+        path: 'a',
+        component: () => import('../views/ComponentA.vue')
+      },
+      {
+        path: 'b',
+        component: () => import('../views/ComponentB.vue')
+      }
+    ]
   },
   {
     path: '/about',
